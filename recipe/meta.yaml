@@ -1,6 +1,6 @@
 {% set name = "pykafka" %}
-{% set version = "2.6.0" %}
-{% set sha256 = "19e4a802b00e28c3203fcfd80ca440b13faecb8e58171e9685a044cf87dae93e" %}
+{% set version = "2.7.0" %}
+{% set sha256 = "c19a56a8b3744f23cc8dc0f1000b6d95e9fa5a773adfcda423b2f770e2dbf2cd" %}
 
 package:
   name: {{ name|lower }}
