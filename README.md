@@ -22,14 +22,16 @@ exposing the most Pythonic API possible.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pykafka-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pykafka-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pykafka-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pykafka-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pykafka-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pykafka-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/pykafka-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/pykafka-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/pykafka-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pykafka-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/pykafka-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/pykafka-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pykafka/badges/version.svg)](https://anaconda.org/conda-forge/pykafka)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pykafka/badges/downloads.svg)](https://anaconda.org/conda-forge/pykafka)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pykafka-green.svg)](https://anaconda.org/conda-forge/pykafka) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pykafka.svg)](https://anaconda.org/conda-forge/pykafka) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pykafka.svg)](https://anaconda.org/conda-forge/pykafka) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pykafka.svg)](https://anaconda.org/conda-forge/pykafka) |
 
 Installing pykafka
 ==================
