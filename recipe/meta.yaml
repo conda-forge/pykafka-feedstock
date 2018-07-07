@@ -17,10 +17,11 @@ build:
 
 requirements:
   build:
+    - {{ compiler('c') }}
+  host:
     - python
     - setuptools
-    - toolchain
-    - librdkafka 0.9.4|0.9.5  # [not win]
+    - librdkafka              # [not win]
   run:
     - python
     - setuptools
@@ -28,7 +29,7 @@ requirements:
     - kazoo
     - tabulate
     - gevent
-    - librdkafka 0.9.4|0.9.5  # [not win]
+    - librdkafka              # [not win]
 
 test:
   imports:
