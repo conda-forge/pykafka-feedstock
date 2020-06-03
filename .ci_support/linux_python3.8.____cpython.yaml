@@ -9,7 +9,7 @@ channel_targets:
 docker_image:
 - condaforge/linux-anvil-comp7
 librdkafka:
-- 0.11.5
+- '1.4'
 pin_run_as_build:
   librdkafka:
     max_pin: x.x.x
@@ -17,4 +17,4 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- '3.6'
+- 3.8.* *_cpython
