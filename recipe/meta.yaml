@@ -12,14 +12,15 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1005
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 1006
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
     - {{ compiler('c') }}
   host:
     - python
+    - pip
     - setuptools
     - librdkafka              # [not win]
   run:
@@ -29,7 +30,6 @@ requirements:
     - kazoo >=2.5.0
     - tabulate
     - gevent
-    - librdkafka              # [not win]
 
 test:
   imports:
@@ -58,4 +58,5 @@ about:
 extra:
   recipe-maintainers:
     - mrocklin
-    - emmett9001
+    # Did emmett9001 delete their profile?
+    # - emmett9001
